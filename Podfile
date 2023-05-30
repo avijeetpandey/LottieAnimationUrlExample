@@ -6,5 +6,5 @@ target 'LottieAnimationUrlExample' do
   use_frameworks!
 
   # Pods for LottieAnimationUrlExample
-
+  pod 'lottie-ios'
 end

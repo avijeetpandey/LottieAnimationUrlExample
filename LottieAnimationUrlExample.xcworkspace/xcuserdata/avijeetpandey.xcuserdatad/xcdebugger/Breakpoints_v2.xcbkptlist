@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "98D3BA61-45F6-461F-9D1C-675500ED1B01"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E052EAFA-69E7-4350-A661-D117B4CB34EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LottieAnimationUrlExample/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "setupLottieAnimationView(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E052EAFA-69E7-4350-A661-D117B4CB34EE - eb985fdc1d434bc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LottieAnimationUrlExample.ViewController.setupLottieAnimationView(from: Swift.String) -&gt; ()"
+                  moduleName = "LottieAnimationUrlExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/LottieAnimationUrlExample/LottieAnimationUrlExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "E052EAFA-69E7-4350-A661-D117B4CB34EE - eb985fdc1d434bc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LottieAnimationUrlExample.ViewController.setupLottieAnimationView(from: Swift.String) -&gt; ()"
+                  moduleName = "LottieAnimationUrlExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/LottieAnimationUrlExample/LottieAnimationUrlExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "468">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA0E323D-18B4-4001-B9AE-A3AC7B61700E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LottieAnimationUrlExample/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "setupLottieAnimationView(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AA0E323D-18B4-4001-B9AE-A3AC7B61700E - eb985fdc1d4344bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LottieAnimationUrlExample.ViewController.setupLottieAnimationView(from: Swift.String) -&gt; ()"
+                  moduleName = "LottieAnimationUrlExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/LottieAnimationUrlExample/LottieAnimationUrlExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "AA0E323D-18B4-4001-B9AE-A3AC7B61700E - bf01e10fdf65a384"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Lottie.Animation&gt;) -&gt; () in LottieAnimationUrlExample.ViewController.setupLottieAnimationView(from: Swift.String) -&gt; ()"
+                  moduleName = "LottieAnimationUrlExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avijeetpandey/Dev/LottieAnimationUrlExample/LottieAnimationUrlExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

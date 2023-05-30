@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434FFC6698E9C1F52B9E5A3C /* Pods_LottieAnimationUrlExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEC49D34E25DAAC9207164D /* Pods_LottieAnimationUrlExample.framework */; };
 		DCD582792A25EF8C0017B8A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD582782A25EF8C0017B8A8 /* AppDelegate.swift */; };
 		DCD5827B2A25EF8C0017B8A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD5827A2A25EF8C0017B8A8 /* SceneDelegate.swift */; };
 		DCD5827D2A25EF8C0017B8A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD5827C2A25EF8C0017B8A8 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		486CF8101CF0E88150238DD1 /* Pods-LottieAnimationUrlExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationUrlExample.debug.xcconfig"; path = "Target Support Files/Pods-LottieAnimationUrlExample/Pods-LottieAnimationUrlExample.debug.xcconfig"; sourceTree = "<group>"; };
+		6C89EB2703BFD6C5D5177BAB /* Pods-LottieAnimationUrlExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationUrlExample.release.xcconfig"; path = "Target Support Files/Pods-LottieAnimationUrlExample/Pods-LottieAnimationUrlExample.release.xcconfig"; sourceTree = "<group>"; };
+		BAEC49D34E25DAAC9207164D /* Pods_LottieAnimationUrlExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieAnimationUrlExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD582752A25EF8C0017B8A8 /* LottieAnimationUrlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieAnimationUrlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD582782A25EF8C0017B8A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCD5827A2A25EF8C0017B8A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434FFC6698E9C1F52B9E5A3C /* Pods_LottieAnimationUrlExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D66EE8AB0F6A66443820502 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				486CF8101CF0E88150238DD1 /* Pods-LottieAnimationUrlExample.debug.xcconfig */,
+				6C89EB2703BFD6C5D5177BAB /* Pods-LottieAnimationUrlExample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DCD5826C2A25EF8C0017B8A8 = {
 			isa = PBXGroup;
 			children = (
 				DCD582772A25EF8C0017B8A8 /* LottieAnimationUrlExample */,
 				DCD582762A25EF8C0017B8A8 /* Products */,
+				3D66EE8AB0F6A66443820502 /* Pods */,
+				F583A10D3A90C98FDA618876 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,14 @@
 			path = LottieAnimationUrlExample;
 			sourceTree = "<group>";
 		};
+		F583A10D3A90C98FDA618876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC49D34E25DAAC9207164D /* Pods_LottieAnimationUrlExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCD582892A25EF8E0017B8A8 /* Build configuration list for PBXNativeTarget "LottieAnimationUrlExample" */;
 			buildPhases = (
+				77910614876985DE7EBF82CF /* [CP] Check Pods Manifest.lock */,
 				DCD582712A25EF8C0017B8A8 /* Sources */,
 				DCD582722A25EF8C0017B8A8 /* Frameworks */,
 				DCD582732A25EF8C0017B8A8 /* Resources */,
+				B3CC7751F3E917536A1F1E57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77910614876985DE7EBF82CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottieAnimationUrlExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3CC7751F3E917536A1F1E57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieAnimationUrlExample/Pods-LottieAnimationUrlExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieAnimationUrlExample/Pods-LottieAnimationUrlExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LottieAnimationUrlExample/Pods-LottieAnimationUrlExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DCD582712A25EF8C0017B8A8 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		DCD5828A2A25EF8E0017B8A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486CF8101CF0E88150238DD1 /* Pods-LottieAnimationUrlExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +380,7 @@
 		};
 		DCD5828B2A25EF8E0017B8A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C89EB2703BFD6C5D5177BAB /* Pods-LottieAnimationUrlExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
